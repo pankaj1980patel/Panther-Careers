@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine, text
 
-dbConnectionString = "mysql+pymysql://b7nrd9huv9u1kb0iguc5:pscale_pw_9GUkGWwkAMqf4BBYHhHdhk4EXj9ismaMSnZBbKCHInu@aws.connect.psdb.cloud/panther-carrers-database?charset=utf8mb4"
+dbConnectionString = "mysql+pymysql://svnobvpui6klga3er0xi:pscale_pw_doutfYsjXOe0R9GsaAfNoSRBs3GuNe3a7OfgS7PoIOI@aws.connect.psdb.cloud/panther-carrers-database?charset=utf8mb4"
 
 engine = create_engine(dbConnectionString,
     connect_args={
