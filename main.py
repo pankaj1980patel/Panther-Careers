@@ -37,8 +37,6 @@ app = Flask(__name__)
 # ]
 
 
-print("hello from JOBS ", type(JOBS))
-
 
 @app.route('/')
 def helloWorld():
